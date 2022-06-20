@@ -1,0 +1,150 @@
+:root {
+    --main_color1: #7c7c7c;
+    --main_color2: #006770;
+}
+
+body {
+    font-family: Varela Round;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    color: var(--main_color1);
+}
+
+.btn-port {
+    background-color: var(--main_color2);
+    color: #fff;
+}
+
+.btn-port:hover {
+    background-color: var(--main_color1);
+    color: var(--main_color2);
+}
+
+
+p {
+    font-weight: 500 !important;
+    font-size: 18px;
+    color: var(--main_color1);
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.active {
+    color: var(--main_color2) !important;
+}
+
+/* span {
+    font-weight: 500;
+} */
+
+h1 {
+    font-size: 26px;
+    color: var(--main_color1);
+}
+
+h2 {
+    font-size: 22px;
+}
+/* .section1 {
+    padding: 10px;
+} */
+
+.full-stack {
+    color: var(--main_color2);
+}
+
+.experienced-tag {
+    color: var(--main_color1);
+}
+
+.section2 {
+    background-color: #f5f6f7;
+}
+
+.section3-cont {
+    background-color: #f5f6f7;
+}
+
+.section3-header{
+    color: var(--main_color2);
+}
+
+.section4 {
+    background-color: #f5f6f7;
+}
+
+.footer-section {
+    /* background-color: var(--main_color1); */
+    background-color: #000;
+}
+.footer-icon {
+    color: var(--main_color1);
+}
+
+.footer-icon:hover {
+    color: var(--main_color2);
+}
+
+.footer-link {
+    color: var(--main_color1);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--main_color2);
+    text-decoration: none;
+}
+
+.footer-text {
+    color: var(--main_color1);
+}
+
+/* overlay */
+
+.cont-overlay {
+    position: relative;
+  }
+
+.over {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: var(--main_color1);
+  }
+  
+.cont-overlay:hover .over {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    color: white;
+    /* font-size: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Modal */
+
+  .modal-title {
+    color: var(--main_color2) !important;
+  }
+
+  .skills-sect {
+    background-color: #f5f6f7;
+  }
